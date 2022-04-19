@@ -175,13 +175,7 @@ cd ..;
 cd out;
 saveas(fig1,'flipping.png')
 saveas(fig2,'negative_multiplication.png')
-saveas(fig3,'histogram calculation.png')
-saveas(fig4,'point tranforms.png')
-saveas(fig5,'gemma correction.png')
-saveas(fig6,'Gaussian Filter.png')
-saveas(fig7,'Gaussain vs Median.png')
-saveas(fig8,'Sharpening Filter.png')
-saveas(fig9,'Sharpened images.png')
+saveas(fig2,'negative_multiplication.png')
 
 
 
