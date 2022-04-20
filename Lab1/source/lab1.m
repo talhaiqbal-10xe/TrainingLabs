@@ -1,9 +1,9 @@
 %% start
 close all;
 cd 'C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\source';
-image_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\yacht.tif');
+image_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\yacht.tif');
 
-house_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\house.tif');
+house_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\house.tif');
 image_house=imread(house_path);
 A=imread(image_path);
 B=double(A);
@@ -44,7 +44,7 @@ title('multiplied by 1.5');
 
 %% histogram
 %manual histogram
-narrow_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\narrow.tif');
+narrow_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\narrow.tif');
 image_house=imread(narrow_path);
 h=image_histogram(image_house);
 fig3=figure;
@@ -78,7 +78,7 @@ stem(transformed_histogram);
 title('transformed histogram');
 
 %% Gemma Correction
-image_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\dark.tif');
+image_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\dark.tif');
 A=imread(image_path);
 fig5=figure;
 subplot (1,2,1);
@@ -92,9 +92,9 @@ colormap(gray(256));
 title('Image with Gemma Correction Applied');
 
 %% Image Enhancement based on Filtering.
-image1_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\race.tif');
-image2_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\noise1.tif');
-image3_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\noise2.tif');
+image1_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\race.tif');
+image2_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\noise1.tif');
+image3_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\noise2.tif');
 A=imread(image1_path);
 B=imread(image2_path);
 C=imread(image3_path);
@@ -150,7 +150,7 @@ mag_H=abs(H);
 fig8=figure;
 s=mesh(X,Y,mag_H)
 title('frequency response of unsharp filter');
-image4_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\in\blur.tif');
+image4_path=('C:\Users\user3\Downloads\Documents\Training\3_Image_Processing_Labs\Lab1\in\blur.tif');
 A=imread(image4_path);
 
 fig9=figure;

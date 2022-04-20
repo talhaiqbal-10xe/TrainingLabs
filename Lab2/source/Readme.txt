@@ -1,0 +1,2 @@
+-->in order to run the file, one just needs to change the working directory of the MATLAB to ..\Lab2 
+-->the required input images are already placed in the "in" folder. 

@@ -1,0 +1,1 @@
+--> image paths are needed to be set so all the commands containing paths must be edited.
